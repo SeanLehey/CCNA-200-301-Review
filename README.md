@@ -8,11 +8,11 @@ This is just a small portfolio where I will share the projects I create while st
 
 ## Planned CCNA Projects
 
-- [ ] Packet Capture and Inspection with Wireshark
 - [ ] An Introduction to Network Topology with Packet Tracer
 - [ ] Cisco IOS CLI Commands and Configuration
 - [ ] Understanding and Applying the OSI Model
 
 ## Related Networking Projects
 
-- [x] Network Reconnaissance Scanning with Kismet
+- [x] [Network Reconnaissance Scanning with Kismet](https://github.com/SeanLehey/Network-Reconnaissance-Scanning-with-Kismet)
+- [ ] Packet Capture and Analysis with Wireshark
