@@ -3,7 +3,7 @@ This is just a small portfolio where I will share the projects I create while st
 
 ## Acknowledgements
 [Jeremy's IT Lab and his CCNA 200-301 playlist on YouTube](https://www.youtube.com/watch?v=H8W9oMNSuwo&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)   
-[Chris Grear and his Wireshark tutorials](https://www.youtube.com/c/ChrisGreer)   
+[Chris Greer and his Wireshark tutorials](https://www.youtube.com/c/ChrisGreer)   
 [Cisco's Official Cert Guide for CCNA 200-301](https://www.ciscopress.com/store/ccna-200-301-official-cert-guide-library-9781587147142)
 
 ## Planned CCNA Projects
