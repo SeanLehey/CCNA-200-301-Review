@@ -6,7 +6,7 @@ This is just a small portfolio where I will share the projects I create while st
 [Chris Grear and his Wireshark tutorials](https://www.youtube.com/c/ChrisGreer)   
 [Cisco's Official Cert Guide for CCNA 200-301](https://www.ciscopress.com/store/ccna-200-301-official-cert-guide-library-9781587147142)
 
-## Planned Projects
+## Planned CCNA Projects
 
 - [ ] Packet Capture and Inspection with Wireshark
 - [ ] An Introduction to Network Topology with Packet Tracer
