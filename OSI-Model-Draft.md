@@ -17,9 +17,22 @@ TryHackMe's [Introduction to Networking](https://tryhackme.com/room/introtonetwo
 
 ## Part 1: The Purpose of the OSI Model
 
-The OSI Model, or, Open Systems Interconnection Model, is a standard created by ISO that describes seven distinct, compartmentalized  
+The OSI Model, or, Open Systems Interconnection Model, is a descriptive model which creates an outline for and categorizes networking protocols and standards. It solves the problem of having two devices from different manufacturers being unable to communicate with one another due to different communication standards or protocols. All modern devices are developed and manufactured with the OSI Model in mind so that they may *interconnect*, as the name of the model prescribes. With this project, I wanted to create a study resource which I can reference while studying for my CCNA. In the following sections, we'll define each layer of the OSI Model, how that layer relates to day-to-day networking activities, and at the end, we'll work through a practical interview question that I've encountered multiple times.
 
 ## Part 2: Learning the Seven Layers
+
+Many people use mnemonics in an effort to memorize things, and one helpful mnemonic that I came across for the OSI Model is as follows:  
+
+| Mnemonic  | OSI Layer  | #  |
+|---|---|---|
+| All  | Application  | 7  |
+| People  | Presentation  | 6  |
+| Seem  | Session  | 5  |
+| To  | Transport  | 4  |
+| Need  | Network  | 3  |
+| Data  | Data-Link  | 2  |
+| Processing  | Physical  | 1  |
+
 
 ### Layer 7: Application Layer
 
