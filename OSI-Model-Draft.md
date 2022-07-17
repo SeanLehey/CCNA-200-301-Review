@@ -33,8 +33,12 @@ Many people use mnemonics in an effort to memorize things, and one helpful mnemo
 | **D**ata  | **D**ata-Link  | 2  |
 | **P**rocessing  | **P**hysical  | 1  |
 
+Each layer represents a different step in the process of interconnection, and as such, each layer is associated with different devices, protocols, and PDUs (Protocol Data Unit), which we'll touch on in this section. Let's move on to each individual layer and learn their distinct functions.
+
 
 ### Layer 7: Application Layer
+
+
 
 ### Layer 6: Presentation Layer
 
