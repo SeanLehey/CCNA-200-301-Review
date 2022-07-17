@@ -86,4 +86,4 @@ The physical layer includes, simply enough, *physical devices* used in networkin
 
 ## Part 3: Real-World Applications
 
-
+Feel free to check out some other projects on my [profile](https://github.com/seanlehey)!
