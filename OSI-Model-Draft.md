@@ -11,7 +11,7 @@ An independent learning project by Sean Lehey.
 ## Acknowledgements
 
 Jeremy's IT Lab's [Videos](https://www.youtube.com/watch?v=t-ai8JzhHuY) on the [OSI Model](https://www.youtube.com/watch?v=7nmYoL0t2tU).   
-The Cisco CCNA [Official Cert Guide from](https://www.pearson.com/us/higher-education/program/Odom-CCNA-200-301-Official-Cert-Guide-Library/PGM2166706.html) Pearson.   
+The Cisco CCNA [Official Cert Guide](https://www.pearson.com/us/higher-education/program/Odom-CCNA-200-301-Official-Cert-Guide-Library/PGM2166706.html) from Pearson.   
 TryHackMe's [Introduction to Networking](https://tryhackme.com/room/introtonetworking) room.
 
 
@@ -42,7 +42,11 @@ As a unit of data is processed across the layers of the OSI Model, it may pick u
 
 ### Layer 7: Application Layer
 
-The application layer interacts with software applications, like your web browser, for instance [jitref]. It utilizes protocols like HTTP and HTTPS in order to send or receive web traffic data. 
+| Common Protocols  | HTTP  | HTTPS  | SMTP  | DNS  | Telnet  | SSH  |
+|---|---|---|---|---|---|---|
+| **Port Numbers**  | **80**  | **443**  | **25**  | **53**  | **23**  | **22**  |
+
+The application layer is commonly described as the layer closest to the end user. It utilizes protocols like HTTP (80), HTTPS (443), and SMTP (25) to communicate with applications like your web browser in order to load or transmit webpages across devices.
 
 ### Layer 6: Presentation Layer
 
@@ -50,12 +54,25 @@ The application layer interacts with software applications, like your web browse
 
 ### Layer 4: Transport Layer
 
+*This Layer Utilizes PDUs called **Segments***.   
+The transport layer 
+
 ### Layer 3: Network Layer
+
+*This Layer Utilizes PDUs called **Packets***.   
+
 
 ### Layer 2: Data-Link Layer
 
+*This Layer Utilizes PDUs called **Frames***.   
+
+
 ### Layer 1: Physical Layer
 
+*This Layer Utilizes PDUs called **Bits***.   
+
+
+The physical layer includes, simply enough, *physical devices* used in networking like hubs, repeaters, and network cables. Those network cables create a physical connection between devices by way of their ports.
 
 ## Part 3: Real-World Applications
 
