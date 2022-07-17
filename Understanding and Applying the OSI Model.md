@@ -4,7 +4,7 @@ An independent learning project by Sean Lehey.
 ## Table of Contents
 
 [Part 1: The Purpose of the OSI Model](#part-1-the-purpose-of-the-osi-model)   
-[Part 2: Identifying the Seven Layers](#part-2-identifying-the-seven-layers)   
+[Part 2: Understanding the Seven Layers](#part-2-understanding-the-seven-layers)   
 [Part 3: Real-World Applications](#part-3-real-world-applications)   
 
 
@@ -42,7 +42,7 @@ As a unit of data is processed through the layers of the OSI Model, it may pick 
 ### De-Encapsulation
 De-encapsulation is the processing of stripping the encapsulated data as it moves up the OSI model after arriving at the machine receiving the data. So, a machine sending data encapsulates information as it moves *down* the OSI stack (a vertical visualization of the OSI Model), and a machine receiving data de-encapsulates it as it moves *up* the OSI stack<sup>[1]</sup>.
 
-## Part 2: Identifying the Seven Layers
+## Part 2: Understanding the Seven Layers
 
 ### Layer 7: Application Layer
 
