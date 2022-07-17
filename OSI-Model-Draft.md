@@ -10,9 +10,10 @@ An independent learning project by Sean Lehey.
 
 ## Acknowledgements
 
-Jeremy's IT Lab's [Videos](https://www.youtube.com/watch?v=t-ai8JzhHuY) on the [OSI Model](https://www.youtube.com/watch?v=7nmYoL0t2tU).   
-The Cisco CCNA [Official Cert Guide](https://www.pearson.com/us/higher-education/program/Odom-CCNA-200-301-Official-Cert-Guide-Library/PGM2166706.html) from Pearson.   
-TryHackMe's [Introduction to Networking](https://tryhackme.com/room/introtonetworking) room.
+1. Jeremy's IT Lab's [Videos](https://www.youtube.com/watch?v=t-ai8JzhHuY) on the [OSI Model](https://www.youtube.com/watch?v=7nmYoL0t2tU).   
+2. The Cisco CCNA [Official Cert Guide](https://www.pearson.com/us/higher-education/program/Odom-CCNA-200-301-Official-Cert-Guide-Library/PGM2166706.html) from Pearson.   
+3. TryHackMe's [Introduction to Networking](https://tryhackme.com/room/introtonetworking) room.
+4. This [archived encapsulation and protocol chart](https://web.archive.org/web/20120529200700/http://www.wildpackets.com/elements/misc/WP_encapsulation_chart.pdf) from the now defunct WildPackets.com.
 
 
 ## Part 1: The Purpose of the OSI Model
@@ -35,41 +36,48 @@ Many people use mnemonics in an effort to memorize things, and one helpful mnemo
 
 Each layer represents a different step in the process of interconnection, and as such, each layer is associated with different devices, protocols, and PDUs (Protocol Data Unit), which we'll touch on in the next section. Let's move on to each individual layer and learn their distinct functions.
 
-### Term to Know: Encapsulation
-As a unit of data is processed across the layers of the OSI Model, it may pick up some additional data from other layers. This process is known as encapsulation, which will be useful to know later on in this project.
+### Encapsulation
+As a unit of data is processed through the layers of the OSI Model, it may pick up some additional data from other layers. This process is known as encapsulation, which will be useful to know later on in this project.
+
+### De-Encapsulation
+De-encapsulation is the processing of stripping the encapsulated data as it moves up the OSI model after arriving at the machine receiving the data. So, a machine sending data encapsulates information as it moves *down* the OSI stack (a vertical visualization of the OSI Model), and a machine receiving data de-encapsulates it as it moves *up* the OSI stack<sup>[1]</sup>.
 
 ## Part 2: Identifying the Seven Layers
 
 ### Layer 7: Application Layer
 
-| Common Protocols  | HTTP  | HTTPS  | SMTP  | DNS  | SSH  | Telnet  |
+| Common Protocols<sup>[4]</sup>  | HTTP  | HTTPS  | SMTP  | DNS  | SSH  | Telnet  |
 |---|---|---|---|---|---|---|
 | **Port Numbers**  | **80**  | **443**  | **25**  | **53**  | **22**  | **23**  |
 
-The application layer is commonly described as the layer closest to the end user. It utilizes protocols like HTTP (80), HTTPS (443), and more to communicate with applications like your web browser in order to load or transmit application data across devices. As suggested by the presence of SSH and Telnet in the above table, it also allows for secure and unsecure remote access into a device.
+The application layer is commonly described as the layer closest to the end user<sup>[1]</sup>. It utilizes protocols like HTTP (80), HTTPS (443), and more to communicate with applications like your web browser in order to load or transmit application data across devices. As suggested by the presence of SSH and Telnet in the above table, it also allows for secure and unsecure remote access into a device.
 
 ### Layer 6: Presentation Layer
 
-
+The presentation layer represents the process through which data is translated to the appropriate format so as to be readable by the application layer. The presentation layer is also where encryption (when sending data) and decryption (when receiving data) takes place.
 
 ### Layer 5: Session Layer
 
-
+The session layer creates, manages, and terminates connections between the local application and the remote application<sup>[1]</sup>. A site like Google creates and terminates millions of sessions per day.
 
 ### Layer 4: Transport Layer
-*This Layer Utilizes PDUs called **Segments***.   
-The transport layer 
+*Note: This Layer Utilizes PDUs called **Segments***.   
+
+The transport layer *segments* and *reassembles* data for communication between end hosts<sup>[1]</sup>.
 
 ### Layer 3: Network Layer
-*This Layer Utilizes PDUs called **Packets***.   
+*Note: This Layer Utilizes PDUs called **Packets***.   
+
 
 
 ### Layer 2: Data-Link Layer
-*This Layer Utilizes PDUs called **Frames***.   
+*Note: This Layer Utilizes PDUs called **Frames***.   
+
 
 
 ### Layer 1: Physical Layer
-*This Layer Utilizes PDUs called **Bits***.   
+*Note: This Layer Utilizes PDUs called **Bits***.   
+
 
 
 The physical layer includes, simply enough, *physical devices* used in networking like hubs, repeaters, and network cables. Those network cables create a physical connection between devices by way of their ports, using electrical signals in the wire.
