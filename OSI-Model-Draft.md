@@ -42,37 +42,37 @@ As a unit of data is processed across the layers of the OSI Model, it may pick u
 
 ### Layer 7: Application Layer
 
-| Common Protocols  | HTTP  | HTTPS  | SMTP  | DNS  | Telnet  | SSH  |
+| Common Protocols  | HTTP  | HTTPS  | SMTP  | DNS  | SSH  | Telnet  |
 |---|---|---|---|---|---|---|
-| **Port Numbers**  | **80**  | **443**  | **25**  | **53**  | **23**  | **22**  |
+| **Port Numbers**  | **80**  | **443**  | **25**  | **53**  | **22**  | **23**  |
 
-The application layer is commonly described as the layer closest to the end user. It utilizes protocols like HTTP (80), HTTPS (443), and SMTP (25) to communicate with applications like your web browser in order to load or transmit webpages across devices.
+The application layer is commonly described as the layer closest to the end user. It utilizes protocols like HTTP (80), HTTPS (443), and more to communicate with applications like your web browser in order to load or transmit application data across devices. As suggested by the presence of SSH and Telnet in the above table, it also allows for secure and unsecure remote access into a device.
 
 ### Layer 6: Presentation Layer
 
+
+
 ### Layer 5: Session Layer
 
-### Layer 4: Transport Layer
 
+
+### Layer 4: Transport Layer
 *This Layer Utilizes PDUs called **Segments***.   
 The transport layer 
 
 ### Layer 3: Network Layer
-
 *This Layer Utilizes PDUs called **Packets***.   
 
 
 ### Layer 2: Data-Link Layer
-
 *This Layer Utilizes PDUs called **Frames***.   
 
 
 ### Layer 1: Physical Layer
-
 *This Layer Utilizes PDUs called **Bits***.   
 
 
-The physical layer includes, simply enough, *physical devices* used in networking like hubs, repeaters, and network cables. Those network cables create a physical connection between devices by way of their ports.
+The physical layer includes, simply enough, *physical devices* used in networking like hubs, repeaters, and network cables. Those network cables create a physical connection between devices by way of their ports, using electrical signals in the wire.
 
 ## Part 3: Real-World Applications
 
