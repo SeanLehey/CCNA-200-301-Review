@@ -25,13 +25,13 @@ Many people use mnemonics in an effort to memorize things, and one helpful mnemo
 
 | Mnemonic  | OSI Layer  | #  |
 |---|---|---|
-| All  | Application  | 7  |
-| People  | Presentation  | 6  |
-| Seem  | Session  | 5  |
-| To  | Transport  | 4  |
-| Need  | Network  | 3  |
-| Data  | Data-Link  | 2  |
-| Processing  | Physical  | 1  |
+| **A**ll  | **A**pplication  | 7  |
+| **P**eople  | **P**resentation  | 6  |
+| **S**eem  | **S**ession  | 5  |
+| **T**o  | **T**ransport  | 4  |
+| **N**eed  | **N**etwork  | 3  |
+| **D**ata  | **D**ata-Link  | 2  |
+| **P**rocessing  | **P**hysical  | 1  |
 
 
 ### Layer 7: Application Layer
