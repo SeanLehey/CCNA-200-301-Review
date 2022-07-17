@@ -61,22 +61,22 @@ The presentation layer represents the process through which data is translated t
 The session layer creates, manages, and terminates connections between the local application and the remote application<sup>[1]</sup>. A site like Google creates and terminates millions of sessions per day.
 
 ### Layer 4: Transport Layer
-*Note: This Layer Utilizes PDUs called **Segments***.   
+*Note: This layer's protocol data unit is called a **Segment***.   
 
-The transport layer *segments* and *reassembles* data for communication between end hosts<sup>[1]</sup>.
+The transport layer *segments* and *reassembles* data for communication between end hosts. It is also responsible for end-to-end, or host-to-host, communication. A layer 4 header is added to every segment of data at this layer.<sup>[1]</sup>.
 
 ### Layer 3: Network Layer
-*Note: This Layer Utilizes PDUs called **Packets***.   
+*Note: This layer's protocol data unit is called a **Packet***.   
 
-
+The network layer establishes connectivity between end hosts on different networks<sup>[1]</sup>. This layer also provides logical addressing in the form of IP addresses<sup>[1]</sup>. An example of a layer 3 device is a router.
 
 ### Layer 2: Data-Link Layer
-*Note: This Layer Utilizes PDUs called **Frames***.   
+*Note: This Layer's protocol data unit is called a **Frame***.   
 
 
 
 ### Layer 1: Physical Layer
-*Note: This Layer Utilizes PDUs called **Bits***.   
+*Note: This Layer's protocol data unit is called a  **Bit***.   
 
 
 
