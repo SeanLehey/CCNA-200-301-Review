@@ -1,3 +1,5 @@
+# ***Note: This project is not yet complete***
+
 # Understanding and Applying the OSI Model
 An independent learning project by Sean Lehey.
 
