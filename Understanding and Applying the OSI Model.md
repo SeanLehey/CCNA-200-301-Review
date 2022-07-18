@@ -70,7 +70,7 @@ The transport layer *segments* and *reassembles* data for communication between 
 ### Layer 3: Network Layer
 *Note: This layer's protocol data unit is called a **Packet***.   
 
-The network layer establishes connectivity between end hosts on different networks<sup>[1]</sup>. This layer also provides logical addressing in the form of IP addresses.<sup>[1]</sup> An example of a layer 3 device is a router.
+The network layer establishes connectivity between end hosts on different networks.<sup>[1]</sup> This layer also provides logical addressing in the form of IP addresses.<sup>[1]</sup> An example of a layer 3 device is a router.
 
 ### Layer 2: Data-Link Layer
 *Note: This Layer's protocol data unit is called a **Frame***.   
