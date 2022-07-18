@@ -42,7 +42,7 @@ Each layer represents a different step in the process of interconnection, and as
 As a unit of data is processed through the layers of the OSI Model, it may pick up some additional data from other layers. This process is known as encapsulation, which will be useful to know later on in this project.
 
 ### De-Encapsulation
-De-encapsulation is the processing of stripping the encapsulated data as it moves up the OSI model after arriving at the machine receiving the data. So, a machine sending data encapsulates information as it moves *down* the OSI stack (a vertical visualization of the OSI Model), and a machine receiving data de-encapsulates it as it moves *up* the OSI stack<sup>[1]</sup>.
+De-encapsulation is the processing of stripping the encapsulated data as it moves up the OSI model after arriving at the machine receiving the data. So, a machine sending data encapsulates information as it moves *down* the OSI stack (a vertical visualization of the OSI Model), and a machine receiving data de-encapsulates it as it moves *up* the OSI stack.<sup>[1]</sup>
 
 ## Part 2: Understanding the Seven Layers
 
@@ -52,7 +52,7 @@ De-encapsulation is the processing of stripping the encapsulated data as it move
 |---|---|---|---|---|---|---|
 | **Port Numbers**  | **80**  | **443**  | **25**  | **53**  | **22**  | **23**  |
 
-The application layer is commonly described as the layer closest to the end user<sup>[1]</sup>. It utilizes protocols like HTTP (80), HTTPS (443), and more to communicate with applications like your web browser in order to load or transmit application data across devices. As suggested by the presence of SSH and Telnet in the above table, it also allows for secure and unsecure remote access into a device.
+The application layer is commonly described as the layer closest to the end user.<sup>[1]</sup> It utilizes protocols like HTTP (80), HTTPS (443), and more to communicate with applications like your web browser in order to load or transmit application data across devices. As suggested by the presence of SSH and Telnet in the above table, it also allows for secure and unsecure remote access into a device.
 
 ### Layer 6: Presentation Layer
 
@@ -60,17 +60,17 @@ The presentation layer represents the process through which data is translated t
 
 ### Layer 5: Session Layer
 
-The session layer creates, manages, and terminates connections between the local application and the remote application<sup>[1]</sup>. A site like Google creates and terminates millions of sessions per day.
+The session layer creates, manages, and terminates connections between the local application and the remote application.<sup>[1]</sup> A site like Google creates and terminates millions of sessions per day.
 
 ### Layer 4: Transport Layer
 *Note: This layer's protocol data unit is called a **Segment***.   
 
-The transport layer *segments* and *reassembles* data for communication between end hosts. It is also responsible for end-to-end, or host-to-host, communication. A layer 4 header is added to every segment of data at this layer.<sup>[1]</sup>.
+The transport layer *segments* and *reassembles* data for communication between end hosts. It is also responsible for end-to-end, or host-to-host, communication. A layer 4 header is added to every segment of data at this layer.<sup>[1]</sup>
 
 ### Layer 3: Network Layer
 *Note: This layer's protocol data unit is called a **Packet***.   
 
-The network layer establishes connectivity between end hosts on different networks<sup>[1]</sup>. This layer also provides logical addressing in the form of IP addresses<sup>[1]</sup>. An example of a layer 3 device is a router.
+The network layer establishes connectivity between end hosts on different networks<sup>[1]</sup>. This layer also provides logical addressing in the form of IP addresses.<sup>[1]</sup> An example of a layer 3 device is a router.
 
 ### Layer 2: Data-Link Layer
 *Note: This Layer's protocol data unit is called a **Frame***.   
