@@ -36,7 +36,7 @@ Many people use mnemonics in an effort to memorize things, and one helpful mnemo
 | **D**ata  | **D**ata-Link  | 2  |
 | **P**rocessing  | **P**hysical  | 1  |
 
-Each layer represents a different step in the process of interconnection, and as such, each layer is associated with different devices, protocols, and PDUs (Protocol Data Unit), which we'll touch on in the next section. But before we learn the distinct functions of each layer, there are two terms we should know:
+Each layer represents a different step in the process of interconnection, and as such, each layer is associated with different devices, protocols, and PDUs (Protocol Data Unit), which we'll touch on in the next section. But before we learn the distinct functions of each layer, there are two terms we should know.
 
 ### Encapsulation
 As a unit of data is processed through the layers of the OSI Model, it may pick up some additional data from other layers. This process is known as encapsulation, which will be useful to know later on in this project.
