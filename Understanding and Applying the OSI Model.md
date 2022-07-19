@@ -42,7 +42,7 @@ Each layer represents a different step in the process of interconnection, and as
 As a unit of data is processed through the layers of the OSI Model, it may pick up some additional data from other layers. This process is known as encapsulation, which will be useful to know later on in this project.
 
 ### De-Encapsulation
-De-encapsulation is the processing of stripping the encapsulated data as it moves up the OSI model after arriving at the machine receiving the data. So, a machine sending data encapsulates information as it moves *down* the OSI stack (a vertical visualization of the OSI Model), and a machine receiving data de-encapsulates it as it moves *up* the OSI stack.<sup>[1]</sup>
+De-encapsulation is the process of stripping the encapsulated data as it moves up the OSI model after arriving at the machine receiving the data. So, a machine sending data encapsulates information as it moves *down* the OSI stack (a vertical visualization of the OSI Model), and a machine receiving data de-encapsulates it as it moves *up* the OSI stack.<sup>[1]</sup>
 
 ## Part 2: Understanding the Seven Layers
 
