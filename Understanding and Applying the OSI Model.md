@@ -7,7 +7,7 @@ An independent learning project by Sean Lehey.
 
 [Part 1: The Purpose of the OSI Model](#part-1-the-purpose-of-the-osi-model)   
 [Part 2: Understanding the Seven Layers](#part-2-understanding-the-seven-layers)   
-[Part 3: Real-World Applications](#part-3-real-world-applications)   
+[Part 3: The TCP/IP Model](#part-3-the-tcpip-model)   
 
 
 ## Acknowledgements
@@ -20,7 +20,7 @@ An independent learning project by Sean Lehey.
 
 ## Part 1: The Purpose of the OSI Model
 
-The OSI Model, or, Open Systems Interconnection Model, is a descriptive model which creates an outline for and categorizes networking protocols and standards. It solves the problem of having two devices from different manufacturers being unable to communicate with one another due to different communication standards or protocols. All modern devices are developed and manufactured with the OSI Model in mind so that they may *interconnect*, as the name of the model prescribes. With this project, I wanted to create a study resource which I can reference while studying for my CCNA. In the following sections, we'll define each layer of the OSI Model, how that layer relates to day-to-day networking activities, and at the end, we'll work through a practical interview question that I've encountered multiple times.
+The OSI Model, or, Open Systems Interconnection Model, is a descriptive model which creates an outline for and categorizes networking protocols and standards. It solves the problem of having two devices from different manufacturers being unable to communicate with one another due to different communication standards or protocols. All modern devices are developed and manufactured with the OSI Model in mind so that they may *interconnect*, as the name of the model prescribes. With this project, I wanted to create a study resource which I can reference while studying for my CCNA. In the following sections, we'll define each layer of the OSI Model, how that layer relates to day-to-day networking activities, and at the end, we'll see how the OSI Model compares to the TCP/IP Model.
 
 ### Memorizing the Layers
 
@@ -84,6 +84,6 @@ The network layer establishes connectivity between end hosts on different networ
 
 The physical layer includes, simply enough, *physical devices* used in networking like hubs, repeaters, and network cables. Those network cables create a physical connection between devices by way of their ports, using electrical signals in the wire.
 
-## Part 3: Real-World Applications
+## Part 3: The TCP/IP Model
 
 Feel free to check out some other projects on my [profile](https://github.com/seanlehey)!
